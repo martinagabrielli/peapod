@@ -1,1 +1,1 @@
-# Peapod [U+1F343]
+# Peapod

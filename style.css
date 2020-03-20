@@ -1,0 +1,164 @@
+body .wrapper {
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+body .wrapper .pod {
+  position: absolute;
+}
+
+body .wrapper .pod.pod-top {
+  height: 45px;
+  width: 220px;
+  border-radius: 100px 100px 0 0;
+  background: green;
+  top: 20px;
+  left: -60px;
+  z-index: -1;
+}
+
+body .wrapper .pod.pod-bottom {
+  height: 55px;
+  width: 220px;
+  border-radius: 0 0 90px 90px;
+  background: #7dae7d;
+  top: 60px;
+  left: -60px;
+  z-index: 3;
+}
+
+body .wrapper .pea {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+body .wrapper .pea.pea-left {
+  background: #85d585;
+  top: 10px;
+  left: -28px;
+}
+
+body .wrapper .pea.pea-left .eyes-close {
+  width: 6px;
+  height: 4px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border: 2px solid black;
+  border-bottom: 0;
+  z-index: 999;
+}
+
+body .wrapper .pea.pea-left .eyes-close.eye-left {
+  position: absolute;
+  top: 16px;
+  left: 18px;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+body .wrapper .pea.pea-left .eyes-close.eye-right {
+  position: absolute;
+  top: 15px;
+  left: 48px;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+body .wrapper .pea.pea-left .cheeks {
+  width: 10px;
+  height: 10px;
+  background: hotpink;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+body .wrapper .pea.pea-left .cheeks.cheek-left {
+  position: absolute;
+  top: 24px;
+  left: 8px;
+}
+
+body .wrapper .pea.pea-left .cheeks.cheek-right {
+  position: absolute;
+  top: 18px;
+  left: 61px;
+}
+
+body .wrapper .pea.pea-left .mouth {
+  position: absolute;
+  width: 8px;
+  height: 4px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border: 2px solid black;
+  border-top: 0;
+  z-index: 999;
+  top: 23px;
+  left: 32px;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+}
+
+body .wrapper .pea.pea-right {
+  background: #479d47;
+  top: 10px;
+  left: 45px;
+}
+
+body .wrapper .pea.pea-right .eyes-open {
+  width: 7px;
+  height: 7px;
+  background: #000;
+  border-radius: 50%;
+}
+
+body .wrapper .pea.pea-right .eyes-open.eye-left {
+  position: absolute;
+  top: 13px;
+  left: 22px;
+}
+
+body .wrapper .pea.pea-right .eyes-open.eye-right {
+  position: absolute;
+  top: 15px;
+  left: 52px;
+}
+
+body .wrapper .pea.pea-right .mouth {
+  position: absolute;
+  width: 8px;
+  height: 4px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border: 2px solid black;
+  border-top: 0;
+  z-index: 999;
+  top: 23px;
+  left: 33px;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+body .wrapper .pea.pea-right .cheeks {
+  width: 10px;
+  height: 10px;
+  background: hotpink;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+body .wrapper .pea.pea-right .cheeks.cheek-left {
+  position: absolute;
+  top: 18px;
+  left: 8px;
+}
+
+body .wrapper .pea.pea-right .cheeks.cheek-right {
+  position: absolute;
+  top: 18px;
+  left: 62px;
+}
+/*# sourceMappingURL=style.css.map */

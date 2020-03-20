@@ -1,0 +1,142 @@
+body {
+    .wrapper {
+        width: 300px;
+        margin: 0 auto;
+        position: relative;
+        .pod {
+            position: absolute;
+            &.pod-top {
+                height: 45px;
+                width: 220px;
+                border-radius: 100px 100px 0 0;
+                background:green;
+                top: 20px;
+                left: -60px;
+                z-index: -1;
+            }
+            &.pod-bottom {
+                height: 55px;
+                width: 220px;
+                border-radius: 0 0 90px 90px;
+                background: rgb(125, 174, 125);
+                top: 60px;
+                left: -60px;
+                z-index: 3;
+            }
+        }
+        .pea {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            position: absolute;
+
+            &.pea-left {
+                background: rgb(133, 213, 133);
+                top: 10px;
+                left: -28px;
+                .eyes-close {
+                    width: 6px;
+                    height: 4px;
+                    border-top-right-radius: 100px;
+                    border-top-left-radius: 100px;
+                    border: 2px solid black;
+                    border-bottom: 0;
+                    z-index: 999;
+                    &.eye-left {
+                        position: absolute;
+                        top: 16px;
+                        left: 18px;
+                        transform: rotate(-10deg);
+                    }
+                    &.eye-right {
+                        position: absolute;
+                        top: 15px;
+                        left: 48px;
+                        transform: rotate(10deg);
+                    }
+                }
+                .cheeks {
+                    width: 10px;
+                    height: 10px;
+                    background: hotpink;
+                    border-radius: 50%;
+                    opacity: 0.6;
+                    &.cheek-left {
+                        position: absolute;
+                        top: 24px;
+                        left: 8px;
+                    }
+                    &.cheek-right {
+                        position: absolute;
+                        top: 18px;
+                        left: 61px;
+                    }
+                }
+                .mouth {
+                    position: absolute;
+                    width: 8px;
+                    height: 4px;
+                    border-bottom-right-radius: 100px;
+                    border-bottom-left-radius: 100px;
+                    border: 2px solid black;
+                    border-top: 0;
+                    z-index: 999;
+                    top: 23px;
+                    left: 32px;
+                    transform: rotate(-5deg);
+                }
+            }
+            &.pea-right {
+                background: rgb(71, 157, 71);
+                top: 10px;
+                left: 45px;
+                .eyes-open {
+                    width: 7px;
+                    height: 7px;
+                    background: #000;
+                    border-radius: 50%;
+                    &.eye-left {
+                        position: absolute;
+                        top: 13px;
+                        left: 22px;
+                    }
+                    &.eye-right {
+                        position: absolute;
+                        top: 15px;
+                        left: 52px;
+                    }
+                }
+                .mouth {
+                    position: absolute;
+                    width: 8px;
+                    height: 4px;
+                    border-bottom-right-radius: 100px;
+                    border-bottom-left-radius: 100px;
+                    border: 2px solid black;
+                    border-top: 0;
+                    z-index: 999;
+                    top: 23px;
+                    left: 33px;
+                    transform: rotate(5deg);
+                }
+                .cheeks {
+                    width: 10px;
+                    height: 10px;
+                    background: hotpink;
+                    border-radius: 50%;
+                    opacity: 0.6;
+                    &.cheek-left {
+                        position: absolute;
+                        top: 18px;
+                        left: 8px;
+                    }
+                    &.cheek-right {
+                        position: absolute;
+                        top: 18px;
+                        left: 62px;
+                    }
+                }
+            }
+        }
+    }
+}

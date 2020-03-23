@@ -7,7 +7,7 @@ body {
             position: absolute;
             &.pod-top {
                 height: 45px;
-                width: 220px;
+                width: 250px;
                 border-radius: 100px 100px 0 0;
                 background:green;
                 top: 20px;
@@ -16,7 +16,7 @@ body {
             }
             &.pod-bottom {
                 height: 55px;
-                width: 220px;
+                width: 250px;
                 border-radius: 0 0 90px 90px;
                 background: rgb(125, 174, 125);
                 top: 60px;
@@ -136,6 +136,31 @@ body {
                         left: 62px;
                     }
                 }
+            }
+        }
+        .stem {
+            background-color: rgb(123, 26, 71);
+            -webkit-border-top-left-radius: 0;
+            -webkit-border-top-right-radius: 75px;
+            // -webkit-border-bottom-right-radius: 75px;
+            -webkit-border-bottom-left-radius: 75px;
+            position: absolute;
+            z-index: 99;
+            &.stem-top {
+                background: rgb(118, 220, 118);
+                -webkit-transform: rotate(10deg);
+                top: 20px;
+                left: 135px;
+                width: 60px;
+                height: 40px;
+            }
+            &.stem-bottom {
+                background: rgb(54, 154, 54);
+                -webkit-transform: rotate(-75deg);
+                top: 52px;
+                left: 128px;
+                width: 70px;
+                height: 50px;
             }
         }
     }

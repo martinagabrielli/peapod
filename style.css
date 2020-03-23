@@ -10,7 +10,7 @@ body .wrapper .pod {
 
 body .wrapper .pod.pod-top {
   height: 45px;
-  width: 220px;
+  width: 250px;
   border-radius: 100px 100px 0 0;
   background: green;
   top: 20px;
@@ -20,7 +20,7 @@ body .wrapper .pod.pod-top {
 
 body .wrapper .pod.pod-bottom {
   height: 55px;
-  width: 220px;
+  width: 250px;
   border-radius: 0 0 90px 90px;
   background: #7dae7d;
   top: 60px;
@@ -160,5 +160,32 @@ body .wrapper .pea.pea-right .cheeks.cheek-right {
   position: absolute;
   top: 18px;
   left: 62px;
+}
+
+body .wrapper .stem {
+  background-color: #7b1a47;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 75px;
+  -webkit-border-bottom-left-radius: 75px;
+  position: absolute;
+  z-index: 99;
+}
+
+body .wrapper .stem.stem-top {
+  background: #76dc76;
+  -webkit-transform: rotate(10deg);
+  top: 20px;
+  left: 135px;
+  width: 60px;
+  height: 40px;
+}
+
+body .wrapper .stem.stem-bottom {
+  background: #369a36;
+  -webkit-transform: rotate(-75deg);
+  top: 52px;
+  left: 128px;
+  width: 70px;
+  height: 50px;
 }
 /*# sourceMappingURL=style.css.map */

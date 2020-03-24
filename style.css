@@ -1,3 +1,7 @@
+body {
+  background: #f2cb9b;
+}
+
 body .wrapper {
   width: 300px;
   margin: 0 auto;

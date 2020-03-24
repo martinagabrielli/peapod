@@ -13,7 +13,7 @@ body {
             border-radius: 100% 0;
             position: absolute;
             top: 0px;
-            left: -30px;
+            left: 50px;
             z-index: -1;
         }
         .pea {
@@ -25,7 +25,7 @@ body {
             &.pea-left {
                 background: rgb(133, 213, 133);
                 top: 30px;
-                left: -28px;
+                left: 55px;
                 .eyes-close {
                     width: 6px;
                     height: 4px;
@@ -91,7 +91,7 @@ body {
             &.pea-right {
                 background: rgb(71, 157, 71);
                 top: 30px;
-                left: 45px;
+                left: 125px;
                 .eyes-open {
                     width: 7px;
                     height: 7px;
@@ -143,25 +143,28 @@ body {
         .leaf {
             -webkit-border-top-left-radius: 0;
             -webkit-border-top-right-radius: 75px;
-            // -webkit-border-bottom-right-radius: 75px;
             -webkit-border-bottom-left-radius: 75px;
             position: absolute;
             z-index: 99;
             &.leaf-top {
                 background: rgb(118, 220, 118);
-                -webkit-transform: rotate(10deg);
-                top: 40px;
-                left: 128px;
-                width: 60px;
-                height: 40px;
+                top: 50px;
+                left: 223px;
+                width: 45px;
+                height: 45px;
+                border-top-left-radius: 80px;
+                border-bottom-left-radius: 80px;
+                transform: rotate(-170deg);
             }
             &.leaf-bottom {
                 background: rgb(54, 154, 54);
-                -webkit-transform: rotate(-80deg);
-                top: 78px;
-                left: 120px;
-                width: 70px;
-                height: 50px;
+                transform: rotate(70deg);
+                top: 76px;
+                left: 220px;
+                width: 45px;
+                height: 45px;
+                border-top-left-radius: 80px;
+                border-bottom-left-radius: 80px;
             }
         }
         .stem {
@@ -174,8 +177,8 @@ body {
             border: 10px solid green;
             border-top: 0;
             z-index: -9;
-            top: 53px;
-            left: 155px;
+            top: 63px;
+            left: 230px;
             transform: rotate(0deg);
         }
     }

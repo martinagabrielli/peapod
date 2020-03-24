@@ -15,7 +15,7 @@ body .wrapper .pod {
   border-radius: 100% 0;
   position: absolute;
   top: 0px;
-  left: -30px;
+  left: 50px;
   z-index: -1;
 }
 
@@ -29,7 +29,7 @@ body .wrapper .pea {
 body .wrapper .pea.pea-left {
   background: #85d585;
   top: 30px;
-  left: -28px;
+  left: 55px;
 }
 
 body .wrapper .pea.pea-left .eyes-close {
@@ -106,7 +106,7 @@ body .wrapper .pea.pea-left:after {
 body .wrapper .pea.pea-right {
   background: #479d47;
   top: 30px;
-  left: 45px;
+  left: 125px;
 }
 
 body .wrapper .pea.pea-right .eyes-open {
@@ -173,20 +173,26 @@ body .wrapper .leaf {
 
 body .wrapper .leaf.leaf-top {
   background: #76dc76;
-  -webkit-transform: rotate(10deg);
-  top: 40px;
-  left: 128px;
-  width: 60px;
-  height: 40px;
+  top: 50px;
+  left: 223px;
+  width: 45px;
+  height: 45px;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  -webkit-transform: rotate(-170deg);
+          transform: rotate(-170deg);
 }
 
 body .wrapper .leaf.leaf-bottom {
   background: #369a36;
-  -webkit-transform: rotate(-80deg);
-  top: 78px;
-  left: 120px;
-  width: 70px;
-  height: 50px;
+  -webkit-transform: rotate(70deg);
+          transform: rotate(70deg);
+  top: 76px;
+  left: 220px;
+  width: 45px;
+  height: 45px;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
 }
 
 body .wrapper .stem {
@@ -199,8 +205,8 @@ body .wrapper .stem {
   border: 10px solid green;
   border-top: 0;
   z-index: -9;
-  top: 53px;
-  left: 155px;
+  top: 63px;
+  left: 230px;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
 }
